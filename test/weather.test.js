@@ -12,4 +12,4 @@ describe("Pincode Normalization", () => {
     test("Non-numeric", () => {
         expect(() => normalizePincode("abc123")).toThrow();
     });
-});
+})
